@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name=”google” content=”notranslate” />
+    <!-- 有时，Google在结果页面会提供一个翻译链接，但有时候你不希望出现这个链接，你可以添加这样一个meta标签 -->
+
+    <!--<meta http-equiv=”refresh” content=”30”>-->
+    <!-- 使用这个meta标签你可以控制浏览器在一段时间之后自动刷新。举例说明，下面的代码表示每隔30秒网页自动更新 -->
+
+    <!--<meta http-equiv=”refresh” content=”30;URL=’http://website.com’”>-->
+    <!-- 你也可以在刷新之后跳转到另外一个页面 -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- 开启ie8渲染 -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- width - viewport的宽度 height - viewport的高度initial-scale - 初始的缩放比例 -->
+
+    <meta content="target-densitydpi=device-dpi, width=750,user-scalable=no" name="viewport" />
+    <!--这个属性只对android系统起作用，专有属性。iOS不支持它，所以说起来，还是有兼容性问题，如果页面是兼容IOS和android的话。-->
+
+    <meta name="description" content="" />
+    <!-- description(网站内容描述) -->
+
+    <meta name="keywords" content="" />
+    <!-- 这些元标记控制搜索引擎如何抓取和索引页。 "robots"元标记指定的规则适用于所有搜索引擎 -->
+
+    <meta name="robots" content="index,follow" />
+    <!-- all：文件将被检索，且页面上的链接可以被查询； none：文件将不被检索，且页面上的链接不可以被查询； index：文件将被检索； follow：页面上的链接可以被查询； noindex：文件将不被检索； nofollow：页面上的链接不可以被查询。 -->
+
+    <meta name="author" content="author name" />
+    <!-- 说明这个网页的作者是 author name  网络爬虫robot (Google,百度等搜索引擎)会读取网页中meta项将其作为索引，大家搜索网页时搜索“author name”时就会搜到这个网页了-->
+
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- 启用 WebApp 全屏模式 如果safari不开启全屏模式,那么通过safari浏览该html的时候保存的Cookie等其他数据不会被清空-->
+
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <!-- 隐藏状态栏/设置状态栏颜色：只有在开启WebApp全屏模式时才生效。content的值为default | black | black-translucent 。 -->
+
+    <meta name="apple-mobile-web-app-title" content="标题">
+    <!-- 添加到主屏后的标题 -->
+
+    <meta content="telephone=no" name="format-detection" />
+    <!-- 忽略数字自动识别为电话号码 -->
+
+    <meta content="email=no" name="format-detection" />
+    <!-- 忽略识别邮箱 -->
+
+    <meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL" />
+    <!--app里面从页面下载一个app图标 告诉浏览器网站对应的是什么app-->
+    <!-- 添加智能 App 广告条 Smart App Banner：告诉浏览器这个网站对应的app，并在页面上显示下载banner:https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/PromotingAppswithAppBanners/PromotingAppswithAppBanners.html -->
+
+
+
+    <meta name="HandheldFriendly" content="true">
+    <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+
+    <meta name="MobileOptimized" content="320">、
+    <!-- 微软的老式浏览器 -->
+
+    <meta name="screen-orientation" content="portrait">
+    <!-- uc强制竖屏 -->
+
+    <meta name="x5-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+
+    <meta name="full-screen" content="yes">
+    <!-- UC强制全屏 -->
+
+    <meta name="x5-fullscreen" content="true">
+    <!-- QQ强制全屏 -->
+
+    <meta name="browsermode" content="application">
+    <!-- UC应用模式 -->
+
+    <meta name="x5-page-mode" content="app">
+    <!-- QQ应用模式 -->
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- 是否删除默认的苹果工具栏和菜单栏 -->
+
+    <meta name="renderer" content="webkit">
+    <!-- 启用360浏览器的极速模式(webkit) -->
+
+
+    <!--下面两个没试过不怎么清楚-->
+    <link rel= "apple-touch-icon"  sizes= "76x76"  href= "touch-icon-ipad.png">
+    <!--如果 apple-mobile-web-app-capable 设置为 yes 了，那么在苹果机的safari上可以通过添加到主屏按钮将网站添加到主屏幕上。-->
+    <!--而设置相应 apple-touch-icon 标签，则添加到主屏上的图标就会使用我们指定的图片。-->
+
+    <link rel= "apple-touch-startup-image" href= "/startup.png">
+    <!--基于 apple-mobile-web-app-capable 设置为 yes ，可以为WebApp设置一个类似NativeApp的启动画面。和 apple-touch-icon 不同，-->
+    <!--apple-mobile-web-app-capable 不支持sizes属性，要使用media来加载不同的启动画面。详细查询 大漠的文章 。-->
+</head>
+<body>
+
+</body>
+</html>
