@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="keywords" content="">
+    <!--关键字-->
+    <meta name="description" content="">
+    <!--介绍-->
+    <meta name="renderer" content="webkit">
+    <!--内核选择-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!--内核为ie，则使用chrome-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!--自适应-->
+    <meta charset="UTF-8">
+    <!--utf-8选择-->
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    var src = ['ssss','wwww','eeee','bffd']
+    for (var i = 0 ; i < 4; i++){
+        var num = Math.random();
+        var link = document.createElement('link');
+        link.setAttribute('rel','stylesheet');
+        link.setAttribute('href',src[i]+'?'+num);
+        document.getElementsByTagName('head')[0].appendChild(link);
+    }
+</script>
+<p>&#xe626;</p>
+</body>
+</html>
