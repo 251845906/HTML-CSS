@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>文档标题</title>
+</head>
+<body>
+<!--=====================================================-->
+<!--基本标签-->
+<h1>最大的标题</h1>
+<h2> . . . </h2>
+<h3> . . . </h3>
+<h4> . . . </h4>
+<h5> . . . </h5>
+<h6>最小的标题</h6>
+
+<p>这是一个段落。</p>
+<br> （换行）
+<hr> （水平线）
+<!-- 这是注释 -->
+<!--=================================================-->
+<!--文本格式化（Formatting）文本标签-->
+<b>粗体文本</b><br>
+<u>为文本添加下划线    行内元素   如果文本不是超链接，就不要对其使用下划线</u><br /><br />
+<i>斜体文本</i><br>
+<em>强调文本</em><br>
+<strong>重要的文本</strong><br>
+
+<code>计算机代码</code><br>
+<kbd>键盘输入</kbd><br>
+<pre>      (保留空格和其他)预格式化文本</pre><br>\
+
+<small>更小的文本 <small>标签可以嵌套</small></small><br>
+<abbr> （缩写）</abbr><br>
+<address> （联系信息）</address><br>
+<bdo> （文字方向）</bdo><br>
+<blockquote> （从另一个源引用的部分）</blockquote><br>
+<cite> （工作的名称）</cite><br>
+<del> （删除的文本）</del><br>
+<ins> （插入的文本）</ins><br>
+<sub> （下标文本）</sub><br>
+<sup> （上标文本）</sup><br>
+<nobr>强制不换行  行内元素</nobr>
+<!--============================================================-->
+<!--链接（Links）-->
+<!--普通的链接：--><a href="http://www.example.com/">链接文本</a>
+<!--图像链接： --><a href="http://www.example.com/"><img src="URL" alt="替换文本"></a>
+<!--邮件链接： --><a href="mailto:webmaster@example.com">发送e-mail</a>
+<!--书签：-->
+<a id="tips">提示部分</a>
+<a href="#tips">跳到提示部分</a>
+
+<!--=====================================================================-->
+<!--图片（Images）-->
+<img src="URL" alt="替换文本" height="42" width="42">
+
+<!--================================================-->
+<!--无序列表-->
+<ul>
+    <li>项目</li>
+    <li>项目</li>
+</ul>
+
+
+<!--================================================-->
+<!--有序列表-->
+<ol>
+    <li>第一项</li>
+    <li>第二项</li>
+</ol>
+
+<!--=============================================-->
+<!--定义列表-->
+<dl>
+    <dt>项目 1</dt>
+    <dd>描述项目 1</dd>
+    <dt>项目 2</dt>
+    <dd>描述项目 2</dd>
+</dl>
+
+<!--========================================-->
+<!--表格（Tables）-->
+<table border="1">
+    <tr>
+        <th>表格标题</th>
+        <th>表格标题</th>
+    </tr>
+    <tr>
+        <td>表格数据</td>
+        <td>表格数据</td>
+    </tr>
+</table>
+<!--=====================================-->
+<!--框架（Iframe）-->
+<iframe src="demo_iframe.htm"></iframe>
+
+<!--============================================-->
+<!--表单（Forms）-->
+<form action="demo_form.php" method="post/get">
+    <input type="text" name="email" size="40" maxlength="50">
+    <input type="password">
+    <input type="checkbox" >
+    <input type="radio" name="111">
+    <input type="radio" name="111">
+    <input type="radio" name="111">
+    <input type="radio" name="111">
+    <input type="submit" value="Send">
+    <input type="reset">
+    <input type="hidden">
+    <select>
+        <option>苹果</option>
+        <option selected="selected">香蕉</option>
+        <option>樱桃</option>
+    </select>
+    <textarea name="comment" rows="10" cols="20"></textarea>
+
+</form>
+
+<!--==========================================================-->
+<!--实体（Entities）-->
+<p>&lt; 等同于 < </p>
+<p>  &gt; 等同于 > </p>
+<p>     &#169; 等同于 ©</p>
+</body>
+</html>
